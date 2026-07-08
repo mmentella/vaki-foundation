@@ -1,1 +1,28 @@
-# vaki-foundation
+# VAKI Foundation
+
+**Costruiamo conoscenza. Progettiamo autonomia.**
+
+VAKI Foundation is the philosophical and methodological foundation of the VAKI ecosystem.
+
+It defines the invariant ideas that guide VAKI manifestations across domains. A manifestation may be software, hardware, research, a product, a machine, a vessel, or another designed system. Manifestations live in independent repositories and remain free to choose domain-specific tools, technologies, and implementation details.
+
+The Foundation defines. Manifestations inherit, interpret, and implement.
+
+A manifestation may extend the Foundation within its domain, but it may not silently redefine it.
+
+## Founding Principle
+
+> La conoscenza ha valore solo quando rende le persone più autonome.
+
+## M0 — Foundation
+
+M0 establishes the philosophical and methodological core of VAKI.
+
+- [Founding Principle](docs/philosophy/FOUNDING_PRINCIPLE.md)
+- [WHY](docs/philosophy/WHY.md)
+- [Manifesto](docs/philosophy/MANIFESTO.md)
+- [Principles](docs/philosophy/PRINCIPLES.md)
+- [Design Methodology](docs/method/DESIGN_METHODOLOGY.md)
+- [Glossary](docs/GLOSSARY.md)
+
+VAKI is not a single product, project, company, or technology stack. It is a design philosophy for transforming knowledge into evolving products and systems that increase human autonomy.
