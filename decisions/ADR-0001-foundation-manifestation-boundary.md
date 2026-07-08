@@ -43,6 +43,8 @@ A manifestation may extend Foundation concepts locally, but must not silently re
 
 Where a manifestation discovers a broadly reusable principle or method, it may propose that knowledge for promotion into the Foundation. Promotion is explicit and reviewed; it is never automatic.
 
+Sharing is the bridge that makes this flow possible. A manifestation cannot contribute reusable knowledge back to the ecosystem unless its intent, assumptions, decisions, constraints, evidence, and relevant source or design knowledge are made understandable and inspectable.
+
 ## Consequences
 
 ### Positive
@@ -52,6 +54,7 @@ Where a manifestation discovers a broadly reusable principle or method, it may p
 - Different domains can choose appropriate tools without forced uniformity.
 - Shared terminology remains stable enough for cross-domain learning.
 - Domain discoveries can flow back into the Foundation through deliberate promotion.
+- Sharing makes cross-manifestation inspection, reuse, adaptation, and learning possible.
 
 ### Negative
 
@@ -59,6 +62,7 @@ Where a manifestation discovers a broadly reusable principle or method, it may p
 - Conformance requires judgment rather than mechanical identity.
 - Boundary disputes may require explicit ADRs.
 - The Foundation must resist the temptation to absorb implementation detail.
+- Sharing requires deliberate preservation of reasoning and operational knowledge.
 
 ## Boundary test
 
@@ -79,13 +83,17 @@ The intended flow is bidirectional:
 Foundation
     ↓ defines invariants
 Manifestation
-    ↓ interacts with reality
+    ↓ makes knowledge understandable and transferable
+Share
+    ↓ enables inspection, use, adaptation, and critique
 Evidence and learning
     ↓ abstraction review
 Foundation evolution
 ```
 
 The Foundation is therefore stable, but not static.
+
+Share is not a separate repository class or governance layer. It is the explicit transfer step through which manifestation knowledge becomes accessible to others and capable of generating feedback and reusable learning.
 
 ## Non-goals
 
