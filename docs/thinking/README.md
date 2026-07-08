@@ -2,7 +2,7 @@
 
 VAKI treats thinking as an explicit, iterative process for moving from incomplete reality to better decisions and more capable systems.
 
-The model is not a rigid workflow. It is a reasoning topology: a shared structure for observation, framing, modeling, hypothesis formation, experimentation, evidence interpretation, decision, manifestation, and feedback.
+The model is not a rigid workflow. It is a reasoning topology: a shared structure for observation, framing, modeling, hypothesis formation, experimentation, evidence interpretation, decision, manifestation, sharing, and feedback.
 
 ## Core loop
 
@@ -24,14 +24,16 @@ Evidence
 Decisions
   ↓ instantiate
 Manifestation
-  ↓ operate in reality
+  ↓ make understandable and transferable
+Share
+  ↓ operate, use, review, adapt
 Feedback
   └──────────────→ new Observations
 ```
 
 The loop is recursive. Evidence may invalidate framing, models, hypotheses, or decisions. Operation may reveal that the original problem was framed incorrectly. A manifestation may create new capabilities and therefore new intents.
 
-VAKI does not optimize for moving forward through stages. It optimizes for reducing important uncertainty and improving the quality of decisions.
+VAKI does not optimize for moving forward through stages. It optimizes for reducing important uncertainty, improving the quality of decisions, and making knowledge reusable beyond the original builder.
 
 ## 1. Reality
 
@@ -173,11 +175,32 @@ It may be software, hardware, research, a machine, a vessel, a process, or anoth
 
 A manifestation should be coherent enough to produce meaningful feedback and no more complex than current evidence justifies.
 
-## 11. Operation and Feedback
+A manifestation is not complete merely because it works locally. It must also be made sufficiently understandable for others to inspect, use, adapt, maintain, or challenge.
+
+## 11. Share
+
+Share is the act of making a manifestation and its relevant knowledge understandable, inspectable, and transferable.
+
+A VAKI project does not end when it works. It reaches a higher level of completion when someone else can understand it.
+
+Sharing may include:
+
+- explaining intent and problem framing;
+- preserving assumptions and constraints;
+- documenting decisions and trade-offs;
+- exposing source, design materials, or operating instructions;
+- explaining how to reproduce, operate, maintain, repair, adapt, or evaluate the manifestation;
+- preserving known limitations and negative knowledge.
+
+Share is not marketing. It is the autonomy-preserving step that prevents knowledge from remaining trapped in the original builder, tool, or context.
+
+Without Share, feedback is weak because others cannot inspect the reasoning or interact with the manifestation meaningfully.
+
+## 12. Operation and Feedback
 
 Operation is part of design.
 
-A manifestation enters reality, where assumptions encounter conditions that models may not have captured.
+A shared manifestation enters reality, where assumptions encounter conditions that models may not have captured and where other people can use, inspect, adapt, and challenge it.
 
 Feedback should be converted into observations, not merely reactions.
 
@@ -189,6 +212,7 @@ The system should ask:
 - Which metric was misleading?
 - Which new capability or failure mode appeared?
 - Which part of the model should be revised?
+- What did sharing make easier or harder to understand, reuse, maintain, or adapt?
 
 ## Movement through the model
 
@@ -201,8 +225,10 @@ Evidence → Hypothesis
 Evidence → Model
 Decision → Problem Framing
 Manifestation → Model
-Operation → Observation
-Operation → Problem Framing
+Share → Manifestation
+Share → Decision
+Feedback → Observation
+Feedback → Problem Framing
 ```
 
 Backward movement is not failure. Refusing to revise an invalidated layer is failure.
@@ -218,9 +244,10 @@ Across all VAKI manifestations:
 5. Evidence must be interpreted in context.
 6. Proxy success must not be silently treated as objective success.
 7. Important decisions must preserve enough reasoning to be revisited.
-8. Operation must feed learning back into the system.
-9. Negative knowledge must be preserved when it prevents repeated failure.
-10. The objective is not activity. The objective is better understanding, better decisions, and greater autonomy.
+8. Manifestations must be shared enough to become understandable, inspectable, and transferable.
+9. Operation must feed learning back into the system.
+10. Negative knowledge must be preserved when it prevents repeated failure.
+11. The objective is not activity. The objective is better understanding, better decisions, and greater autonomy.
 
 ## Relationship to the Design Methodology
 
