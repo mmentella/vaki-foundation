@@ -20,6 +20,18 @@ The resulting degree and structure of resources, direction, constraints, depende
 
 Commitment connects decision reasoning to manifestation. It may be incremental, staged, bounded, provisional, conditional, or full, but these are not lifecycle states.
 
+## Contextual Validity
+
+The scope and conditions under which evidence, an evidential relation, interpretation, or knowledge remains applicable.
+
+Contextual validity is evidence-side. It is distinct from Observation Context, which concerns the conditions needed to understand what was observed.
+
+## Data
+
+Recorded output from an interaction, measurement, perception, instrument, system, account, or experience.
+
+Data is not automatically Observation or Evidence.
+
 ## Decision
 
 The justified act of committing resources, direction, or constraints under the current state of knowledge and uncertainty.
@@ -36,6 +48,12 @@ Data becomes evidence only in relation to a Question and an interpretation.
 
 A deliberate reality-facing inquiry arrangement, intervention, or controlled interaction that creates conditions under which relevant Observations may become possible.
 
+## Feedback
+
+A reaction, response, consequence, or operational effect produced when a manifestation or system interacts with reality.
+
+Feedback becomes useful to Foundation reasoning when it is converted into Observation with enough context to be inspectable.
+
 ## Foundation
 
 The repository of invariant VAKI philosophy, principles, shared language, and domain-independent methodology.
@@ -49,6 +67,12 @@ A provisional and challengeable claim exposed to possible investigation through 
 ## Inquiry
 
 The directed and revisable pursuit of better understanding in relation to one or more Questions.
+
+## Interpretation
+
+The act of assigning meaning in context.
+
+Foundation-to-domain interpretation is governed by the Foundation Specification. Observation-side interpretation boundaries are owned by the Observation Model. Evidential interpretation is owned by the Evidence Model.
 
 ## Knowledge
 
@@ -75,6 +99,12 @@ Every model has a scope and limitations.
 A recorded fact, measurement, event, state, or experience obtained from reality before interpretive claims are added.
 
 Observations may still contain measurement error or incomplete coverage.
+
+## Observation Context
+
+The conditions, origin, process, scope, limits, and relevant assumptions needed to understand an Observation.
+
+Observation Context is origin-side. It does not determine evidential relevance or contextual validity by itself.
 
 ## Problem Frame
 
@@ -105,6 +135,12 @@ A signal is not automatically evidence of system-level success.
 ## System
 
 A set of interacting elements, boundaries, behaviors, constraints, and feedback relationships considered together for a purpose.
+
+## Uncertainty
+
+The recognized limit of current knowledge, observation, model, or interpretation.
+
+Evidence may reduce, reveal, relocate, or reframe uncertainty, but it does not eliminate uncertainty by default.
 
 ## Validation
 

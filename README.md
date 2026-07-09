@@ -26,4 +26,15 @@ M0 establishes the philosophical and methodological core of VAKI.
 - [Design Methodology](docs/method/DESIGN_METHODOLOGY.md)
 - [Glossary](docs/GLOSSARY.md)
 
+## M1 — Cognitive Semantics
+
+M1 defines the domain-independent reasoning structures used by the Foundation.
+
+- [Thinking Model](docs/thinking/README.md)
+- [Questions and Inquiry Model](docs/thinking/QUESTIONS_AND_INQUIRY_MODEL.md)
+- [Hypothesis and Experiment Model](docs/thinking/HYPOTHESIS_AND_EXPERIMENT_MODEL.md)
+- [Observation Model](docs/thinking/OBSERVATION_MODEL.md)
+- [Evidence Model](docs/thinking/EVIDENCE.md)
+- [Decision Model](docs/method/DECISION_MODEL.md)
+
 VAKI is not a single product, project, company, or technology stack. It is a design philosophy for transforming knowledge into evolving products and systems that increase human autonomy.

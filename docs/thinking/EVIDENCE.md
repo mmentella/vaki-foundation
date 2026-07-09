@@ -91,7 +91,7 @@ Data is not automatically observation and is not automatically evidence.
 
 The same artifact may function as raw data in one reasoning context, as part of an observation in another, and as evidence in another only when it bears on something under consideration.
 
-The transition from data to observation depends on whether the record preserves something perceived, measured, experienced, or detected with enough context to be understood as an account of interaction with reality. That boundary is defined by the [Observation Model](OBSERVATION_MODEL.md).
+The [Observation Model](OBSERVATION_MODEL.md) owns the conditions under which data becomes part of an Observation. This model retains only the boundary needed to state that data is not evidence merely because it was recorded.
 
 Data without context can still be retained, but its evidential value is limited until its source, scope, and limits can be responsibly interpreted.
 
@@ -401,6 +401,8 @@ Origin-side observation trace belongs to the [Observation Model](OBSERVATION_MOD
 
 Decision reasoning and commitment trace belong to the [Decision Model](../method/DECISION_MODEL.md).
 
+Forward trace from an Observation to affected evidence relationships and decisions is layered across the Observation, Evidence, and Decision models; it is not a separate traceability owner.
+
 Traceability is not bureaucracy. It is the preservation of reasoning so that a future person can understand, challenge, revise, or reuse the decision.
 
 At this stage, traceability is conceptual. This document does not define a database, schema, template, identifier system, or tool.
@@ -416,6 +418,8 @@ Observation correction is distinct from evidence revision. Observation correctio
 Revision does not imply that an earlier decision was irrational.
 
 A prior decision can remain understandable and rational if it was made from the evidence, uncertainty, constraints, and context available at the time. Later evidence may supersede it without making the original reasoning dishonest or careless.
+
+A superseded piece of knowledge may remain historically important while no longer being operationally reliable in the current context. Preserving that distinction supports negative knowledge, decision review, hypothesis revision, question reopening, design retirement, and possible Foundation evolution without creating a knowledge lifecycle or forgetting workflow.
 
 VAKI must therefore preserve enough context to avoid hindsight bias.
 
