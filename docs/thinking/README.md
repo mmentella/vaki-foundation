@@ -47,6 +47,8 @@ When evidence conflicts with a model, the model is provisional; reality is not.
 
 Observation records what is perceived, measured, or experienced before adding stronger interpretive claims.
 
+The detailed semantics of observation are defined in [Observation Model](OBSERVATION_MODEL.md).
+
 A good observation states:
 
 - what was observed;

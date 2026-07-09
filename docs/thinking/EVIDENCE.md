@@ -18,28 +18,26 @@ The model exists to preserve autonomy by making visible:
 
 ## 2. Position in the Thinking Model
 
-In the VAKI Thinking Model, evidence sits between experiment and decision:
+In the VAKI Thinking Model, evidence sits between reality-facing observation and decision reasoning:
 
 ```text
 Reality
+  -> interaction with reality
   -> Observation
-  -> Problem Framing
-  -> Model
-  -> Hypothesis
-  -> Experiment
-  -> Evidence
-  -> Decision
+  -> possible Signal
+  -> Evidence relation
+  -> changed state of uncertainty
+  -> Decision Reasoning
   -> Manifestation
-  -> Share
-  -> Feedback
-  -> Observation
 ```
 
 This position does not mean evidence is produced only by formal experiments.
 
-Evidence may arise from direct observation, operational feedback, experience, comparison, deliberate experiment, or other interactions with reality. What matters is not the source category, but whether the information is connected to a question, claim, hypothesis, model, uncertainty, or decision with enough context to be interpreted responsibly.
+Evidence may arise from observation, operational feedback, experience, comparison, deliberate experiment, or other reality-facing interactions. What matters is not the source category, but whether the information is related to something under consideration, such as a question, claim, hypothesis, model, uncertainty, or decision context, with enough context to be interpreted responsibly.
 
-Evidence is a boundary layer. It connects reality-facing observation to decision-facing interpretation without allowing either side to silently replace the other.
+Feedback does not become evidence merely because it occurred. The Observation Model owns the feedback-to-observation boundary; the Evidence Model owns whether the resulting observation or other relevant information bears evidentially on something under consideration.
+
+Evidence is a boundary layer. It connects reality-facing observation to decision-facing interpretation without owning the formation of observations or allowing decisions to mechanically follow from evidence.
 
 ## 3. Epistemic Layers
 
@@ -49,7 +47,7 @@ VAKI distinguishes the following layers:
 Reality
   -> interaction, measurement, or experience
 Data
-  -> contextualization and recording
+  -> possible Observation role
 Observation
   -> relevance detection
 Signal
@@ -64,6 +62,8 @@ Decision
 This sequence is not a mandatory process. It is a set of distinctions. It describes common epistemic roles, not a required pipeline through which every record must pass.
 
 The same artifact may participate in several layers, but the layers must not be treated as synonyms. A measurement is not automatically an observation. An observation is not automatically a signal. A signal is not automatically evidence. Evidence is not automatically knowledge. Knowledge does not remove uncertainty. A decision is not proof.
+
+Observation semantics are defined in the [Observation Model](OBSERVATION_MODEL.md). This document retains only the observation boundary language needed to explain how observations may participate in evidence reasoning.
 
 Interpretation is shown after evidence because synthesized evidence must be interpreted before it can become knowledge or support decision reasoning. It is also active earlier: interpretation helps determine whether information bears on an object of evaluation at all. Evidence and interpretation therefore form an iterative relationship, while remaining conceptually distinct.
 
@@ -83,40 +83,23 @@ Data may be structured or unstructured, quantitative or qualitative, direct or i
 
 The distinction between data and observation is conceptual and role-based, not a mandatory processing pipeline.
 
-The same physical record may function as raw data in one reasoning context and as part of an observation in another when its provenance, conditions, timing, process, and limitations are explicit.
+Data is not automatically observation and is not automatically evidence.
 
-To become usable in VAKI reasoning, data should be connected where possible to:
+The same artifact may function as raw data in one reasoning context, as part of an observation in another, and as evidence in another only when it bears on something under consideration.
 
-- provenance;
-- conditions;
-- timing;
-- measurement or recording process;
-- known uncertainty;
-- scope;
-- limitations.
+The transition from data to observation depends on whether the record preserves something perceived, measured, experienced, or detected with enough context to be understood as an account of interaction with reality. That boundary is defined by the [Observation Model](OBSERVATION_MODEL.md).
 
-Data without context can still be retained, but its interpretive value is limited.
+Data without context can still be retained, but its evidential value is limited until its source, scope, and limits can be responsibly interpreted.
 
 ## 6. Observation
 
-An observation is a contextualized record of what was perceived, measured, experienced, or detected before stronger interpretive claims are added.
+Evidence may use observations as one possible source, but this document does not define observation semantics.
 
-Some observations may arise from direct experience or perception without a separately identifiable raw-data artifact. VAKI does not require every observation to be decomposed into an underlying data object.
+Observation is not yet explanation. Observation is not automatically signal or evidence. Measurement is not automatically evidence.
 
-Observation answers, as far as possible:
+Observation semantics, including context, selection, preservation, provenance origin, measurement boundary, limits, absence/non-observation, feedback-to-observation, and correction, are defined by the [Observation Model](OBSERVATION_MODEL.md).
 
-- what was observed;
-- where or in what system it was observed;
-- when or in what state it was observed;
-- under which conditions;
-- through which process, instrument, actor, or interaction;
-- with what known uncertainty or incompleteness.
-
-Observation is not yet explanation.
-
-An observation may be mistaken or incomplete. It may contain measurement error. It may cover only a narrow part of reality. It may be affected by the act of observation itself.
-
-Preserving those limits is part of the observation, not an optional note.
+Evidence interpretation must respect observation context, provenance, limits, and scope, but those qualities do not by themselves determine evidential meaning.
 
 ## 7. Signal
 
@@ -125,6 +108,8 @@ A signal is an observed pattern, difference, event, absence, change, or indicato
 Signal is a relevance layer. It marks that something in an observation may matter.
 
 A signal is not automatically evidence because relevance is still provisional. It may be noise, coincidence, artifact of measurement, proxy behavior, local effect, or a pattern that matters only under certain assumptions.
+
+An observation does not need to pass through a mandatory signal state before participating in an evidence relation.
 
 Signal should therefore remain connected to:
 
@@ -147,7 +132,7 @@ Something becomes evidence only when it is interpreted as bearing on at least on
 - a hypothesis;
 - a model;
 - an uncertainty;
-- a decision.
+- a decision context.
 
 The same observation may be strong evidence for one claim, weak evidence for another, irrelevant to a third, and misleading for a fourth.
 
@@ -166,6 +151,8 @@ Evidence does not eliminate interpretation. It constrains interpretation, and in
 ## 9. Interpretation
 
 Interpretation is the act of assigning meaning to information and evidence in context.
+
+This section concerns evidential interpretation: how information bears on a claim, hypothesis, model, uncertainty, or decision context. Observation-side selection, mediation, description, and the description/inference boundary are owned by the [Observation Model](OBSERVATION_MODEL.md).
 
 Interpretation helps evaluate whether and how an observation, signal, result, or absence bears on an object of evaluation. It may connect multiple pieces of evidence, compare competing explanations, identify limitations, synthesize a body of evidence, or revise a model. It should not be hidden inside the evidence itself.
 
@@ -256,7 +243,7 @@ Experiment or interaction with reality
   -> decision reasoning
 ```
 
-This bridge is not a workflow. It names the epistemic movement that the future Decision Process will need to use without defining that process here.
+This bridge is not a workflow. It names the epistemic movement that the Decision Model uses without defining decision reasoning here.
 
 ## 13. Evidence Quality
 
@@ -278,6 +265,8 @@ Evidence quality should be judged through dimensions appropriate to the case. Th
 
 Not every dimension applies equally in every domain. The invariant is not the checklist. The invariant is that evidence quality cannot be collapsed into unexamined confidence.
 
+Observation quality may influence evidence quality, but it does not determine evidence strength by itself. A precise, well-preserved observation can be weak evidence for a broad claim, while an imperfect observation may still have evidential relevance within appropriate limits.
+
 ## 14. Supporting, Contradicting, Absent, and Inconclusive Evidence
 
 Evidence may affect an object of evaluation in different ways.
@@ -290,7 +279,13 @@ Qualifying evidence narrows scope, reveals boundary conditions, or shows that a 
 
 Null evidence is an expected observation that did not occur under conditions where it should have been detectable.
 
-Absence of observation means no relevant observation was made, or the observation process was not capable of detecting the relevant condition.
+The [Observation Model](OBSERVATION_MODEL.md) owns the observation-side distinction between absence of observation and observation of absence. Evidence Model owns whether an observed absence bears evidentially on a claim, hypothesis, model, uncertainty, or decision context.
+
+Three layers should remain distinct:
+
+- no relevant observation exists;
+- an observation records absence under meaningful detection conditions;
+- that observation bears evidentially on something under consideration.
 
 An inconclusive result means the available evidence does not responsibly support, weaken, or resolve the object of evaluation.
 
@@ -365,20 +360,34 @@ Evidence may lose or change validity when:
 
 Evidence should therefore remain connected to the conditions under which it was produced and interpreted.
 
+Observation Context is origin-side: it explains the conditions needed to understand what was observed and with what limits, as defined by the [Observation Model](OBSERVATION_MODEL.md).
+
+Contextual Validity is evidence-side: it describes the scope and conditions under which an evidential interpretation remains applicable.
+
 Old evidence is not automatically invalid. Recent evidence is not automatically better. Validity depends on whether the evidence still bears on the current question under current conditions.
 
 ## 18. Traceability
 
 Important decisions should be traceable back to the evidence and observations that made them understandable.
 
-The conceptual trace is:
+Evidence relationship trace is:
+
+```text
+Evidence
+  -> Observation or other relevant source
+  -> relationship to claim, hypothesis, model, uncertainty, or decision context
+```
+
+Decision reasoning connects upward through:
 
 ```text
 Decision
-  -> Evidence
-  -> Observation
-  -> provenance, experiment, experience, or operational feedback
+  -> Body of Evidence
 ```
+
+Origin-side observation trace belongs to the [Observation Model](OBSERVATION_MODEL.md), including provenance from observation toward reality interaction, experiment, experience, operation, measurement, or detection context.
+
+Decision reasoning and commitment trace belong to the [Decision Model](../method/DECISION_MODEL.md).
 
 Traceability is not bureaucracy. It is the preservation of reasoning so that a future person can understand, challenge, revise, or reuse the decision.
 
@@ -389,6 +398,8 @@ At this stage, traceability is conceptual. This document does not define a datab
 Evidence, interpretation, and knowledge are revisable.
 
 New evidence may modify an interpretation. A revised interpretation may modify knowledge. Revised knowledge may change what decision is appropriate.
+
+Observation correction is distinct from evidence revision. Observation correction changes or better contextualizes what was observed or preserved. Evidence revision changes evidential meaning, relationship, or applicability.
 
 Revision does not imply that an earlier decision was irrational.
 
@@ -405,7 +416,9 @@ Supersession should distinguish:
 - what changed in constraints or objectives;
 - what was unknown but relevant at the time.
 
-## 20. Boundary with Decision Process
+The architecture should allow observation correction to cause affected evidence relationships to be reconsidered, which may change a body of evidence, the state of uncertainty, and possibly decision reasoning. This is a conceptual dependency, not a required workflow.
+
+## 20. Boundary with Decision Model
 
 Evidence strength is not decision strength.
 
@@ -421,9 +434,9 @@ The level and kind of evidence needed for a decision depends on factors such as:
 - scope of the decision;
 - whether the decision creates or removes future options.
 
-This document defines the epistemic boundary needed by decisions. It does not define the full VAKI Decision Process.
+This document defines the epistemic boundary needed by decisions. It does not define the full VAKI Decision Model.
 
-Decision Process should later define how decisions use a changed state of uncertainty, body of evidence, trade-offs, reversibility, timing, and consequences to choose action.
+The Decision Model defines how decisions use a changed state of uncertainty, body of evidence, trade-offs, reversibility, timing, and consequences to choose an appropriate commitment.
 
 ## 21. Invariants
 
