@@ -37,6 +37,8 @@ Evidence may arise from observation, operational feedback, experience, compariso
 
 Question semantics are defined in the [Questions and Inquiry Model](QUESTIONS_AND_INQUIRY_MODEL.md). The Evidence Model owns whether information bears evidentially on a Question or another object of evaluation.
 
+Hypothesis and Experiment semantics are defined in the [Hypothesis and Experiment Model](HYPOTHESIS_AND_EXPERIMENT_MODEL.md). The Evidence Model owns whether information bears evidentially on a Hypothesis, including support, contradiction, qualification, inconclusive relation, strength, interpretation, conflict, and body-of-evidence reasoning.
+
 Feedback does not become evidence merely because it occurred. The Observation Model owns the feedback-to-observation boundary; the Evidence Model owns whether the resulting observation or other relevant information bears evidentially on something under consideration.
 
 Evidence is a boundary layer. It connects reality-facing observation to decision-facing interpretation without owning the formation of observations or allowing decisions to mechanically follow from evidence.
@@ -139,6 +141,8 @@ Something becomes evidence only when it is interpreted as bearing on at least on
 The same observation may be strong evidence for one claim, weak evidence for another, irrelevant to a third, and misleading for a fourth.
 
 This does not make evidence arbitrary. The interpretation that establishes evidential relevance must itself be constrained by provenance, conditions, measurement quality, scope, alternatives, and known limitations.
+
+An experiment result is not automatically evidence. Failure to observe an expected observable consequence does not automatically falsify a Hypothesis. Those meanings depend on observation conditions, evidential interpretation, and the relevant body of evidence.
 
 Evidence should make visible:
 
@@ -347,6 +351,8 @@ Negative knowledge is valuable when it prevents repeated failure, clarifies boun
 
 It should not be reduced to failure as outcome. A failed approach can be successful learning if it changes what VAKI understands and prevents the same lesson from being paid for again.
 
+Investigation of a Hypothesis or Experiment may contribute to Negative Knowledge, but Negative Knowledge semantics remain owned by this model.
+
 ## 17. Evidence Lifetime and Contextual Validity
 
 Evidence has a validity horizon.
@@ -465,6 +471,8 @@ Across VAKI manifestations:
 ## 22. Relationship to Existing Foundation Documents
 
 This model extends the Thinking Model by formalizing the evidence layer without changing the core loop.
+
+It depends on the [Hypothesis and Experiment Model](HYPOTHESIS_AND_EXPERIMENT_MODEL.md) for Hypothesis and Experiment semantics while retaining ownership of evidential relevance, interpretation, strength, conflict, and body-of-evidence reasoning.
 
 It supports the Design Methodology by clarifying how observations, hypotheses, experiments, evidence, interpretation, and decisions remain connected while preserving uncertainty.
 

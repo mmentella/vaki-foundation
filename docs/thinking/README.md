@@ -4,6 +4,8 @@ VAKI treats thinking as an explicit, iterative process for moving from incomplet
 
 The model is not a rigid workflow. It is a reasoning topology: a shared structure for observation, framing, modeling, hypothesis formation, experimentation, evidence interpretation, decision, manifestation, sharing, and feedback.
 
+Hypothesis and Experiment semantics are defined in the [Hypothesis and Experiment Model](HYPOTHESIS_AND_EXPERIMENT_MODEL.md). Hypothesis formation and Experiment may participate in Inquiry, but neither is a mandatory stage. Inquiry may proceed without either, and the topology remains recursive rather than a required sequence.
+
 ## Core loop
 
 ```text
@@ -14,11 +16,13 @@ Observations
 Problem
   ↓ model
 Model
-  ↓ derive
+  ↓ may inform
 Hypotheses
-  ↓ test
+  ↓ may guide
 Experiments
-  ↓ produce
+  ↓ may create conditions for
+Observations
+  ↓ may bear as
 Evidence
   ↓ interpret
 Decisions
@@ -96,26 +100,28 @@ A useful model makes explicit:
 
 ## 5. Hypothesis
 
-A hypothesis converts uncertainty into a claim that can be tested or challenged.
+A hypothesis is a provisional and challengeable claim that may arise within Inquiry or other reasoning.
 
 A useful hypothesis states:
 
 - what is expected;
 - under which conditions;
 - why it is plausible;
-- what observation would support it;
-- what observation would weaken or invalidate it;
-- which decision depends on the result.
+- what observation could become relevant to supporting it;
+- what observation could become relevant to weakening or invalidating it;
+- which decision, if any, may depend on its current evidential status.
 
 Hypotheses exist to expose reasoning to reality.
 
+Detailed Hypothesis semantics are owned by the [Hypothesis and Experiment Model](HYPOTHESIS_AND_EXPERIMENT_MODEL.md).
+
 ## 6. Experiment
 
-An experiment is a deliberate intervention or observation designed to reduce uncertainty relevant to a decision.
+An experiment is a deliberate reality-facing inquiry arrangement or intervention whose semantics are owned by the [Hypothesis and Experiment Model](HYPOTHESIS_AND_EXPERIMENT_MODEL.md).
 
-The best experiment is not necessarily the largest or most realistic one. It is the smallest credible test that can change what should be done next.
+The best experiment is not necessarily the largest or most realistic one. It is the smallest credible inquiry arrangement that can improve relevant understanding.
 
-A successful experiment may invalidate the preferred idea.
+An experiment may weaken, qualify, or invalidate the preferred idea, but an experiment result is not automatically evidence.
 
 Learning value takes precedence over confirmation value.
 
@@ -244,7 +250,7 @@ Across all VAKI manifestations:
 1. Observation must be distinguishable from interpretation.
 2. Assumptions must be made visible when they affect important decisions.
 3. Hypotheses must be vulnerable to evidence.
-4. Experiments must be connected to uncertainty and decision.
+4. Experiments must remain distinguishable from Observation and Evidence.
 5. Evidence must be interpreted in context.
 6. Proxy success must not be silently treated as objective success.
 7. Important decisions must preserve enough reasoning to be revisited.

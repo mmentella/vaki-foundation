@@ -30,7 +30,7 @@ The Foundation owns:
 - durable cross-domain principles;
 - canonical shared terminology;
 - domain-independent reasoning structures;
-- question, inquiry, observation, evidence, uncertainty, decision, commitment, manifestation, sharing, and feedback semantics through their owning documents;
+- question, inquiry, hypothesis, experiment, observation, evidence, uncertainty, decision, commitment, manifestation, sharing, and feedback semantics through their owning documents;
 - the boundary between Foundation meaning and local manifestation realization.
 
 The Foundation does not own domain-specific implementation choices. It does not prescribe tools, technologies, architectures, procedures, workflows, data structures, performance targets, deployment models, or local engineering decisions.
@@ -103,7 +103,7 @@ Manifestations own implementation freedom.
 
 They may choose local tools, technologies, languages, architectures, procedures, workflows, data structures, representations, performance targets, deployment models, operational practices, domain conventions, and engineering decisions.
 
-For inquiry, manifestations may choose local methods, research practices, decomposition strategies, prioritization approaches, storage, traceability implementations, workflows, tools, and governance, while preserving Foundation meanings for Question and Inquiry.
+For inquiry, manifestations may choose local methods, research practices, hypothesis generation methods, experimental methods, statistical approaches, prioritization approaches, storage, traceability implementations, workflows, tools, validation practices, and governance, while preserving Foundation meanings for Question, Inquiry, Hypothesis, and Experiment.
 
 This freedom does not require Foundation approval.
 
@@ -219,6 +219,8 @@ This document connects existing Foundation documents without replacing their own
 [VAKI Thinking Model](thinking/README.md) describes the general topology of knowledge construction, including manifestation, sharing, feedback, and recursive learning. This specification clarifies how that topology relates to Foundation meaning and manifestation autonomy.
 
 [Questions and Inquiry Model](thinking/QUESTIONS_AND_INQUIRY_MODEL.md) owns Question and Inquiry semantics. This specification references inquiry only as Foundation meaning that manifestations may interpret, implement, and extend locally without silently redefining it.
+
+[Hypothesis and Experiment Model](thinking/HYPOTHESIS_AND_EXPERIMENT_MODEL.md) owns Hypothesis and Experiment semantics, their semantic relationships, and lightweight boundary language for expected observable consequences. This specification references those meanings only as Foundation semantics that manifestations may interpret, implement, and extend locally without silently redefining them.
 
 [VAKI Observation Model](thinking/OBSERVATION_MODEL.md) owns observation semantics. This specification references observation only as part of the manifestation feedback and learning flow.
 

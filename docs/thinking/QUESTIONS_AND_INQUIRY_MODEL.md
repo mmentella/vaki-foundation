@@ -43,9 +43,9 @@ insufficient understanding
 
 This is not a workflow or lifecycle. It names common semantic relations. A manifestation may move through them in different orders, revisit them, skip explicit representation where risk is low, or combine them with local practices.
 
-Questions may arise before problem framing, inside problem framing, after evidence, during decision reasoning, from manifestation feedback, or from open-ended exploration. Inquiry may involve observation, modeling, hypothesis formation, evidence synthesis, experiment, comparison, simulation, interaction with reality, or reconsideration of prior reasoning. None of these activities is required in every inquiry.
+Questions may arise before problem framing, inside problem framing, after evidence, during decision reasoning, from manifestation feedback, or from open-ended exploration. Inquiry may involve observation, modeling, hypothesis formation, evidence synthesis, experiment, comparison, simulation, interaction with reality, or reconsideration of prior reasoning. None of these activities is required in every inquiry. Hypothesis and Experiment semantics are owned by the [Hypothesis and Experiment Model](HYPOTHESIS_AND_EXPERIMENT_MODEL.md).
 
-The Foundation needs this model because existing documents already rely on questions. Evidence may be relevant to a question. Signals may indicate something relevant to a question. Experiments and prototypes may answer a question. Operation may expose new questions. Without a semantic owner, manifestations could silently redefine question as uncertainty, problem, hypothesis, evidence gap, experiment objective, or decision need.
+The Foundation needs this model because existing documents already rely on questions. Evidence may be relevant to a question. Signals may indicate something relevant to a question. Experiments may generate observations relevant to a question. Prototypes may be used in inquiry or design learning. Operation may expose new questions. Without a semantic owner, manifestations could silently redefine question as uncertainty, problem, hypothesis, evidence gap, experiment objective, or decision need.
 
 ## 3. Question
 
@@ -64,7 +64,7 @@ A Question is not identical to:
 - Problem: a problem is a situation being addressed. A Question asks what must be understood.
 - Problem Frame: a problem frame describes current state, desired state, actors, constraints, uncertainties, assumptions, and consequences. A Question may precede, inhabit, challenge, or revise that frame.
 - Claim: a claim asserts something. A Question does not assert its own answer.
-- Hypothesis: a hypothesis is a provisional, testable claim. A Question may generate hypotheses, but is not one.
+- Hypothesis: a hypothesis is a provisional and challengeable claim, as defined by the [Hypothesis and Experiment Model](HYPOTHESIS_AND_EXPERIMENT_MODEL.md). A Question may generate hypotheses, but is not one.
 - Assumption: an assumption is taken as a condition in reasoning. A Question may expose, test, or challenge assumptions.
 - Evidence Gap: an evidence gap is missing support relative to an object of evaluation. A Question may reveal an evidence gap, but is not reducible to one.
 - Decision Situation: a decision situation exists when a choice or commitment can materially affect consequences, learning, constraints, resources, direction, or future options. A Question may be decision-relevant without being a decision situation.
@@ -213,11 +213,11 @@ Open-ended scientific inquiry, exploratory research, operational diagnosis, desi
 
 ### 8.3 Question and Hypothesis
 
-The Thinking Model and Glossary own Hypothesis semantics.
+The [Hypothesis and Experiment Model](HYPOTHESIS_AND_EXPERIMENT_MODEL.md) owns Hypothesis semantics.
 
-A Question is not a Hypothesis. A Hypothesis is a provisional, testable claim about how reality behaves or how a proposed intervention is expected to work.
+A Question is not a Hypothesis. A Hypothesis is a provisional and challengeable claim.
 
-Inquiry may proceed without a formal Hypothesis. A Question may generate multiple competing Hypotheses. A Hypothesis may be weakened or invalidated without resolving the original Question. Hypothesis failure may reframe the Question, replace it with a better Question, or expose another Question that matters more.
+Inquiry may proceed without a formal Hypothesis. A Question may generate multiple competing Hypotheses, but this is not a required transition. A Hypothesis may be weakened, revised, or invalidated without resolving the original Question. Hypothesis revision may reframe the Question, replace it with a better Question, or expose another Question that matters more.
 
 A Hypothesis is not automatically an Answer merely because it is plausible, preferred, currently unchallenged, or convenient.
 
@@ -410,7 +410,7 @@ Across VAKI manifestations:
 
 This model refines the question and inquiry semantics used across the Foundation without replacing existing ownership.
 
-The [VAKI Thinking Model](README.md) owns the broad reasoning topology, including Problem Framing, Modeling, Hypothesis, Experiment, Decision, Manifestation, Share, and Feedback topology. This model defines how Questions and Inquiry move within and across that topology.
+The [VAKI Thinking Model](README.md) owns the broad reasoning topology, including Problem Framing, Modeling, Decision, Manifestation, Share, and Feedback topology. The [Hypothesis and Experiment Model](HYPOTHESIS_AND_EXPERIMENT_MODEL.md) owns Hypothesis and Experiment semantics. This model defines how Questions and Inquiry move within and across that topology.
 
 The [Observation Model](OBSERVATION_MODEL.md) owns Observation, Observation Context, selection, preservation, provenance origin, measurement boundary, correction, absence/non-observation, Observation Quality, and the feedback-to-observation boundary. This model may describe how Inquiry orients attention, but it does not define what becomes an Observation.
 

@@ -34,9 +34,9 @@ Important claims should be supported by evidence proportional to the consequence
 
 ## 6. Experiment to learn
 
-Experiments exist to reduce uncertainty.
+Experiments are a way to learn through deliberate reality-facing interaction.
 
-A good experiment has a clear question, explicit assumptions, observable outcomes, and a result that can change a decision.
+A good experiment has a clear inquiry relation, explicit assumptions, observable conditions, and the possibility of changing understanding or future action.
 
 ## 7. Preserve negative knowledge
 

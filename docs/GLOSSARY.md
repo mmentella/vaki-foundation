@@ -34,7 +34,7 @@ Data becomes evidence only in relation to a Question and an interpretation.
 
 ## Experiment
 
-A deliberate interaction with reality designed to reduce uncertainty relevant to a decision.
+A deliberate reality-facing inquiry arrangement, intervention, or controlled interaction that creates conditions under which relevant Observations may become possible.
 
 ## Foundation
 
@@ -44,7 +44,7 @@ The Foundation does not contain domain-specific implementations.
 
 ## Hypothesis
 
-A provisional, testable claim about how reality behaves or how a proposed intervention is expected to work.
+A provisional and challengeable claim exposed to possible investigation through Observation and Evidence.
 
 ## Inquiry
 

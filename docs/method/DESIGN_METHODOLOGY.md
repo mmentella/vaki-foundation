@@ -6,6 +6,8 @@ The methodology is domain-independent. It does not prescribe a programming langu
 
 Its purpose is to preserve the reasoning structure beneath those choices.
 
+The methodology may use Hypotheses and Experiments as available reasoning structures. Their semantics are defined in the [Hypothesis and Experiment Model](../thinking/HYPOTHESIS_AND_EXPERIMENT_MODEL.md). This methodology does not imply that every Inquiry, design problem, Prototype, or Decision must pass through Hypothesis formation or Experiment.
+
 ## 1. Start from intent
 
 State why the system should exist and whose autonomy it should improve.
@@ -48,7 +50,7 @@ Every model is partial. Its scope and limitations should be explicit.
 
 ## 5. Form hypotheses
 
-Translate uncertainty into testable statements.
+Where useful, articulate provisional and challengeable claims.
 
 A useful hypothesis should identify:
 
@@ -56,15 +58,17 @@ A useful hypothesis should identify:
 - under which conditions;
 - what evidence supports it;
 - what evidence would weaken or invalidate it;
-- what decision depends on the result.
+- what decision, if any, may depend on its current evidential status.
 
 ## 6. Design experiments for learning
 
-Choose the smallest credible experiment that can reduce the uncertainty relevant to the next decision.
+Choose the smallest credible experiment that can improve relevant understanding.
 
 Experiments should avoid unnecessary scope. Prefer learning value over premature completeness.
 
 A prototype is successful when it answers its question, even when the answer invalidates the original idea.
+
+A Prototype may participate in an Experiment, but Prototype and Experiment are not synonyms. An Experiment may use no Prototype, and a Prototype may be used outside Experiment.
 
 ## 7. Interpret evidence in context
 
@@ -142,4 +146,4 @@ Operation and Feedback
 
 The loop may move backward whenever evidence requires it.
 
-VAKI does not reward progress through stages. It rewards improved understanding, better decisions, and greater autonomy.
+The loop is methodological guidance, not a universal Foundation pipeline. VAKI does not reward progress through stages. It rewards improved understanding, better decisions, and greater autonomy.
