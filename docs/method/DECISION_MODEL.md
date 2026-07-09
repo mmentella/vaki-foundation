@@ -135,7 +135,7 @@ A body of evidence may contain:
 
 The Decision Model must not collapse this body into one confidence score. Strong evidence for a narrow claim may be insufficient for a broad commitment. Weak evidence may still justify action when waiting is costly, the decision is reversible, or inaction creates greater consequences.
 
-Decision reasoning also uses the current state of uncertainty. Uncertainty is not a scalar. A decision may face uncertainty about:
+Decision reasoning also uses the current state of uncertainty as defined by the Evidence Model. The Decision Model does not redefine uncertainty or turn it into a decision threshold. Uncertainty is not a scalar. A decision may face uncertainty about:
 
 - what is true;
 - what matters;
@@ -267,7 +267,7 @@ Low uncertainty does not automatically justify broad commitment. Evidence may be
 
 ## 13. Decision
 
-A decision is a commitment of resources, direction, or constraints based on the current state of knowledge.
+A decision is a commitment of resources, direction, or constraints based on the current state of knowledge and uncertainty.
 
 A decision may arise from a choice, but it is not identical to choice. It exists when selection, continuation, delay, pause, abandonment, or preservation of an option creates material commitment or consequences.
 

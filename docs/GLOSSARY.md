@@ -10,6 +10,18 @@ The capacity to understand, decide, act, operate, maintain, repair, adapt, and l
 
 Autonomy does not mean isolation or the absence of collaboration.
 
+## Commitment
+
+The resulting degree and structure of resources, direction, constraints, dependencies, or irreversibility created by a decision.
+
+Commitment connects decision reasoning to manifestation. It may be incremental, staged, bounded, provisional, conditional, or full, but these are not lifecycle states.
+
+## Decision
+
+The justified act of committing resources, direction, or constraints under the current state of knowledge and uncertainty.
+
+A choice, preference, approval, or action is not necessarily a decision unless it creates or implies meaningful commitment or material consequences. Inaction, delay, continuation, pause, reversal, or abandonment can be decisions when they create such commitment or consequences.
+
 ## Evidence
 
 Information that changes the credibility of a claim, hypothesis, model, or decision.

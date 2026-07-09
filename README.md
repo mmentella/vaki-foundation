@@ -22,6 +22,7 @@ M0 establishes the philosophical and methodological core of VAKI.
 - [WHY](docs/philosophy/WHY.md)
 - [Manifesto](docs/philosophy/MANIFESTO.md)
 - [Principles](docs/philosophy/PRINCIPLES.md)
+- [Foundation Specification](docs/FOUNDATION_SPEC.md)
 - [Design Methodology](docs/method/DESIGN_METHODOLOGY.md)
 - [Glossary](docs/GLOSSARY.md)
 

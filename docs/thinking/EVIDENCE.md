@@ -233,6 +233,8 @@ Evidence may reduce uncertainty, reveal new uncertainty, relocate uncertainty, o
 
 The role of evidence is not to produce certainty. Its role is to change the state of uncertainty enough to improve reasoning.
 
+The Evidence Model owns uncertainty semantics and how evidence changes the state of uncertainty. The Decision Model uses the current state of uncertainty as an input to decision reasoning without redefining it.
+
 One useful conceptual bridge is:
 
 ```text
