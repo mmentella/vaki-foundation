@@ -35,6 +35,8 @@ The loop is recursive. Evidence may invalidate framing, models, hypotheses, or d
 
 VAKI does not optimize for moving forward through stages. It optimizes for reducing important uncertainty, improving the quality of decisions, and making knowledge reusable beyond the original builder.
 
+Questions and Inquiry are defined in the [Questions and Inquiry Model](QUESTIONS_AND_INQUIRY_MODEL.md). Questions may arise before, within, or after problem framing, and Inquiry may interact recursively with observation, modeling, hypothesis formation, experiment, evidence, decision, and feedback. Inquiry is not an additional required stage in this loop; it refines how VAKI understands question-oriented movement within the broader thinking topology.
+
 ## 1. Reality
 
 Reality is the external reference that constrains VAKI reasoning.

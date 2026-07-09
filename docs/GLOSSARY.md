@@ -10,6 +10,10 @@ The capacity to understand, decide, act, operate, maintain, repair, adapt, and l
 
 Autonomy does not mean isolation or the absence of collaboration.
 
+## Answer
+
+A bounded response to a Question that changes understanding within relevant scope, context, assumptions, and remaining uncertainty.
+
 ## Commitment
 
 The resulting degree and structure of resources, direction, constraints, dependencies, or irreversibility created by a decision.
@@ -24,9 +28,9 @@ A choice, preference, approval, or action is not necessarily a decision unless i
 
 ## Evidence
 
-Information that changes the credibility of a claim, hypothesis, model, or decision.
+Information that changes the credibility of a claim, hypothesis, model, uncertainty, or decision.
 
-Data becomes evidence only in relation to a question and an interpretation.
+Data becomes evidence only in relation to a Question and an interpretation.
 
 ## Experiment
 
@@ -41,6 +45,10 @@ The Foundation does not contain domain-specific implementations.
 ## Hypothesis
 
 A provisional, testable claim about how reality behaves or how a proposed intervention is expected to work.
+
+## Inquiry
+
+The directed and revisable pursuit of better understanding in relation to one or more Questions.
 
 ## Knowledge
 
@@ -80,13 +88,17 @@ Principles constrain behavior without prescribing one specific implementation.
 
 ## Prototype
 
-A deliberately incomplete manifestation built to answer a question, test a model, expose constraints, or reduce uncertainty.
+A deliberately incomplete manifestation built to answer a Question, test a model, expose constraints, or reduce uncertainty.
 
 A prototype is evaluated by learning value, not only by whether it resembles a final product.
 
+## Question
+
+An explicit orientation of reasoning toward something not sufficiently understood for the current purpose.
+
 ## Signal
 
-An observed pattern or indicator that may contain information relevant to a question.
+An observed pattern or indicator that may contain information relevant to a Question.
 
 A signal is not automatically evidence of system-level success.
 

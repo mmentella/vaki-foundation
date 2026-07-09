@@ -33,7 +33,9 @@ Reality
 
 This position does not mean evidence is produced only by formal experiments.
 
-Evidence may arise from observation, operational feedback, experience, comparison, deliberate experiment, or other reality-facing interactions. What matters is not the source category, but whether the information is related to something under consideration, such as a question, claim, hypothesis, model, uncertainty, or decision context, with enough context to be interpreted responsibly.
+Evidence may arise from observation, operational feedback, experience, comparison, deliberate experiment, or other reality-facing interactions. What matters is not the source category, but whether the information is related to something under consideration, such as a Question, claim, hypothesis, model, uncertainty, or decision context, with enough context to be interpreted responsibly.
+
+Question semantics are defined in the [Questions and Inquiry Model](QUESTIONS_AND_INQUIRY_MODEL.md). The Evidence Model owns whether information bears evidentially on a Question or another object of evaluation.
 
 Feedback does not become evidence merely because it occurred. The Observation Model owns the feedback-to-observation boundary; the Evidence Model owns whether the resulting observation or other relevant information bears evidentially on something under consideration.
 
@@ -103,7 +105,7 @@ Evidence interpretation must respect observation context, provenance, limits, an
 
 ## 7. Signal
 
-A signal is an observed pattern, difference, event, absence, change, or indicator that may contain information relevant to a question.
+A signal is an observed pattern, difference, event, absence, change, or indicator that may contain information relevant to a Question.
 
 Signal is a relevance layer. It marks that something in an observation may matter.
 
@@ -114,7 +116,7 @@ An observation does not need to pass through a mandatory signal state before par
 Signal should therefore remain connected to:
 
 - the observation from which it was detected;
-- the question or uncertainty that made it relevant;
+- the Question or uncertainty that made it relevant;
 - possible alternative explanations;
 - known ways the signal could be misleading.
 
@@ -147,6 +149,8 @@ Evidence should make visible:
 - its known limitations.
 
 Evidence does not eliminate interpretation. It constrains interpretation, and interpretation clarifies what the evidence is evidence of.
+
+Evidence may bear directly on a Question when interpretation makes clear what aspect of the Question is supported, weakened, qualified, unresolved, or reframed. This does not transfer ownership of Question semantics to the Evidence Model.
 
 ## 9. Interpretation
 
@@ -366,7 +370,7 @@ Observation Context is origin-side: it explains the conditions needed to underst
 
 Contextual Validity is evidence-side: it describes the scope and conditions under which an evidential interpretation remains applicable.
 
-Old evidence is not automatically invalid. Recent evidence is not automatically better. Validity depends on whether the evidence still bears on the current question under current conditions.
+Old evidence is not automatically invalid. Recent evidence is not automatically better. Validity depends on whether the evidence still bears on the current Question under current conditions.
 
 ## 18. Traceability
 
