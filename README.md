@@ -40,5 +40,6 @@ M1 defines the domain-independent reasoning structures used by the Foundation.
 - [First Manifestation Validation Discovery](docs/audits/FIRST_MANIFESTATION_VALIDATION_DISCOVERY.md)
 - [First Manifestation Validation Protocol](docs/audits/FIRST_MANIFESTATION_VALIDATION_PROTOCOL.md)
 - [First Manifestation Pilot Preregistration](docs/audits/FIRST_MANIFESTATION_PILOT_PREREGISTRATION.md)
+- [SPY Momentum Pilot Validation Record](docs/validation/PILOT_VALIDATION_SPY_MOMENTUM.md)
 
 VAKI is not a single product, project, company, or technology stack. It is a design philosophy for transforming knowledge into evolving products and systems that increase human autonomy.
