@@ -51,4 +51,8 @@ Validation governance records how the Foundation learns from audits, pilots, and
 - [Validation Strategy Semantic Audit](docs/audits/VALIDATION_STRATEGY_SEMANTIC_AUDIT.md)
 - [v0.9.0 Release Record](docs/releases/V0.9.0_RELEASE_RECORD.md)
 
+## Ecosystem
+
+- [Known Public Manifestations](docs/MANIFESTATIONS.md)
+
 VAKI is not a single product, project, company, or technology stack. It is a design philosophy for transforming knowledge into evolving products and systems that increase human autonomy.
