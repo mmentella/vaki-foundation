@@ -13,10 +13,10 @@ The Foundation may identify known Manifestations without becoming their release 
 - **Status:** public
 - **Relationship:** Manifestation of the VAKI Foundation
 - **Initial public commit:** [`f41610a2ab69e8b678a3f839d4bf50a1050dc43d`](https://github.com/mmentella/vaki-research/commit/f41610a2ab69e8b678a3f839d4bf50a1050dc43d)
-- **Current public HEAD at this registration update:** [`51519a2673683cea1a7c495c058ca7bc6cabedfb`](https://github.com/mmentella/vaki-research/commit/51519a2673683cea1a7c495c058ca7bc6cabedfb)
+- **Current public HEAD at this registration update:** [`431d90381ff950601096ff6978886b6ec3d36778`](https://github.com/mmentella/vaki-research/commit/431d90381ff950601096ff6978886b6ec3d36778)
 
 A bounded research Manifestation that applies the VAKI Foundation to explicit questions, hypotheses, experiments, observations, evidence, and decisions while preserving domain-local implementation autonomy.
 
 This public Manifestation is distinct from its private development history and from the frozen pilot used for bounded Foundation validation. This listing neither publishes nor changes either of those sources.
 
-The initial identifier is retained as publication history. The current-HEAD identifier records the narrow public path-redaction correction available when this informational entry was updated; it is not a certification, release gate, or requirement to register every future Manifestation commit.
+The initial identifier is retained as publication history. The current-HEAD identifier records the narrow public path-redaction and fixture-generalization corrections available when this informational entry was updated; it is not a certification, release gate, or requirement to register every future Manifestation commit.
